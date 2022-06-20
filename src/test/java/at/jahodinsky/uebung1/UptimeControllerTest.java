@@ -10,7 +10,7 @@ class UptimeControllerTest {
 
     @Test
     void uptimeTest1() {
-        assertEquals(String.format("uptime per month in minutes: 21600,00"), uptimeController.uptime(50.0));
+        assertEquals(String.format("uptime per month in minutes: 21600.00"), uptimeController.uptime(50.0));
     }
 
 }
